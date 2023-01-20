@@ -1,0 +1,82 @@
+*{
+  color: white;
+}
+.container{
+  background-color: #282c34;
+  display: grid;
+
+}
+
+.healthBox{
+  display: flex;
+  flex-direction: column;
+}
+
+.card{
+  width: 45%;
+  background-color: #282c34;
+}
+
+.nav{
+  width: 5%;
+  background-color: blue;
+}
+
+
+.playerCard{
+  display: flex;
+  justify-content: space-between;
+}
+.nameClass{
+  display: flex;
+  column-gap: 20px;
+  align-items: baseline;
+}
+
+.healthPoints{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border: solid darkgoldenrod ;
+  width: 150px;
+  height: 50px;
+  flex-direction: column;
+}
+
+.tempStatus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border: solid darkgoldenrod ;
+  margin-top: 5px;
+  
+  width: 150px;
+  height: 30px;
+  flex-direction: column;
+}
+
+.hpText{
+  margin-bottom: -10%;
+  margin-left: 1%;
+  font-size: smaller;
+}
+
+.hitDieBox{
+  display: flex;
+  border: solid darkgoldenrod ;
+  margin-top: 5px;
+  justify-content: space-around;
+  width: 150px;
+  height: 30px;
+}
+
+.skillsBox{
+  display: flex;
+
+}
+
+.statsAndHealth{
+  display: flex;
+}
